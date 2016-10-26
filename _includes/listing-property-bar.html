@@ -1,0 +1,23 @@
+<div id="property_bar">
+  <div id="property_price" class="property_bar_box">
+    <p class="CONDO COOP SALE">{{ include.page.price }}<br /><span>price</span></p>
+  </div>
+
+
+  <div id="property_beds" class="property_bar_box sm2">
+    <p>{{ include.page.bedrooms }}<br /><span>bed</span></p>
+  </div>
+
+
+  <div id="property_baths" class="property_bar_box sm2">
+    <p>{{ include.page.bathrooms }}<br /><span>bath</span></p>
+  </div>
+
+
+
+  <div id="property_sq_ft" class="property_bar_box sm {{ include.page.sqfeet | remove:','}}">
+    <p>{{ include.page.sqfeet }}<br /><span>approx. sq ft</span></p>
+  </div>
+  
+  <br class="clear" />
+</div>

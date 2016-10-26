@@ -1,0 +1,19 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+#property_calc,
+#property_loc,
+#footer_buttons,
+#share,
+#navigation,
+#property_print,
+#header_top_form,
+#website_designer {
+  display: none;
+}
+
+#listings.detail #property_feat {
+  min-height: none;
+}

@@ -1,0 +1,30 @@
+{% if include.agent %}
+  {% assign agent = include.agent %}
+{% else %}
+  {% assign agent = site.agentDefault %}
+{% endif %}
+
+<div id="property_agent" class="property_box">
+  <h3>Agent</h3>
+  <div class="property_agent_thumb">
+    <a href="mailto:{{ agent.email }}"><img src="{{ agent.img }}" alt="{{ agent.name }}"></a>
+  </div>
+  <div class="property_agent_details">
+    <h4>{{ agent.name }}</h4>
+
+    <h5>{{ agent.title }}</h5>
+    <table>
+      <tr>
+        <td><strong>O:</strong></td>
+        <td>{{ agent.phone }}</td>
+      </tr>
+
+      <tr>
+        <td><strong>E:</strong></td>
+        <td><a href="mailto:{{ agent.email }}">Email Me</a></td>
+      </tr>
+    </table>
+    <a class="contact" href="mailto:{{ agent.email }}">Contact Agent</a>
+  </div>
+  <br class="clear" />
+</div>

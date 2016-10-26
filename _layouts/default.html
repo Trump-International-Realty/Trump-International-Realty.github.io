@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  {% if page.listing %}
+  {% include head-listing.html %}
+  {% else %}
+  {% include head.html %}
+  {% endif %}
+
+  {% if page.listing %}
+  <body id="listings" class="detail">
+  {% else %}
+  <body>
+  {% endif %}
+  
+    {% include header.html %}
+
+      {{ content }}
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

@@ -1,0 +1,40 @@
+<div class="property_border">
+  <a href="{{ include.rental.url }}" class="property">
+
+
+    <img src="{{ include.rental.img[0] }}" alt="1 Central Park West New York" width="460" height="310" />
+
+
+  </a>
+  <div class="property_title CONDO COOP SALE">
+    <a href="{{ include.rental.url }}" class="address-link">{{ include.rental.title }}</a>
+    <div class="property_location"> 
+
+      {{ include.rental.location }}
+      
+    </div>
+
+    <div class="property_class">
+      <div class="property_class_type">
+
+        CONDO
+      </div>
+      <div class="property_price">
+
+        {{ include.rental.price }}
+
+      </div>
+    </div>
+    <div class="property_information">
+      <div class="property_information_title">Property Information</div>
+
+
+      <div class="property_bedrooms">Bedrooms <div class="number"> {{ include.rental.bedrooms }}</div></div><div class="property_bathrooms">Bathrooms <div class="number">{{ include.rental.bathrooms }}</div></div><div class="property_exclusive">
+        {{ include.rental.description }}
+      </div>
+
+
+    </div>
+  </div>
+  <a href="{{ include.rental.url }}" class="view-details">View Details</a>
+</div>

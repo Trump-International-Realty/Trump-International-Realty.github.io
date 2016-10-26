@@ -1,0 +1,56 @@
+<section id="thumb_gallery">
+  {% for img in include.page.img %}
+    {% if forloop.first %}
+      <a class="shadowbox[gallery]" id="view_slideshow" href="{{ img }}">View Slideshow »</a>
+    {% else %}
+      <a class="shadowbox[gallery]" style="display: none;" href="{{ img }}"></a>
+    {% endif %}
+  {% endfor %}
+
+  <div id="thumb_gallery_slideshow" class="cycle-slideshow" data-cycle-slides="div.gallery_slide" data-cycle-timeout="0" data-cycle-speed="1000" data-cycle-pager="#custom-pager" data-cycle-pager-template="">
+
+    {% for img in include.page.img %}
+      <div class="gallery_slide">
+        <div class="overlay"></div>
+        <img src="{{ img }}" alt="{{ include.page.title }}" style="width: 640px;">
+      </div>
+    {% endfor %}
+    
+    
+    
+    <div id="pager">
+      <div id="custom-pager">
+        
+        {% for img in include.page.img %}
+          <a><img src="{{ img }}" alt="{{ include.page.title }}" style="width: 92px; height: auto;"></a>
+        {% endfor %}
+        
+        
+      </div>
+    </div>
+
+    <script>
+    // Force height if the picture is too tall
+    $(function(){
+      $('#custom-pager img').each(function(index, elem){
+        var img = $(this);
+
+        // IE9+ only
+        if (!img[0].naturalHeight) return false;
+
+        if (img[0].naturalHeight > img[0].naturalWidth) {
+          var url = img.attr('href');
+
+          $('.gallery_slide img').each(function(subindex, subelem){
+            var subImg = $(this);
+
+            if (img.attr('href') == url) {
+              subImg.css({'width': 'auto', 'height': '427px'});
+            }
+          });
+        }
+      });
+    });
+    </script>
+  </div>
+</section>

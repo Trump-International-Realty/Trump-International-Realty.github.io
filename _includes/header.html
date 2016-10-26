@@ -1,0 +1,40 @@
+<div id="wrapper">
+  <div id="header_wrapper">
+    <div id="header">
+      <div id="header_top">
+        <div id="header_top_form">
+          <a id="header_search">Search</a>
+        </div>
+        <div id="header_top_text">
+          <p><span>{{ site.phone }}</span> or <a href="mailto:{{ site.email }}">email us</a></p>
+        </div>
+        <div id="header_menu">
+          <p><a href="#" id="nav_menu">Menu &nbsp; &#9660;</a></p>
+        </div>
+        <br class="clear" />
+      </div>
+      <div id="brand">
+        <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}img/logo3.png" alt="Trump International Realty" /></a>
+      </div>
+      <div id="social">
+        <ul>
+          {% if site.social.facebook %}
+          <li id="facebook"><a href="{{ site.social.facebook }}" target="_blank">Facebook</a></li>
+          {% endif %}
+          {% if site.social.twitter %}
+          <li id="twitter"><a href="{{ site.social.twitter }}" target="_blank">Twitter</a></li>
+          {% endif %}
+          {% if site.social.instagram %}
+          <li id="instagram"><a href="{{ site.social.instagram }}" target="_blank">Instagram</a></li>
+          {% endif %}
+          {% if site.social.linkedin %}
+          <li id="linkedin"><a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a></li>
+          {% endif %}
+          {% if site.social.youtube %}
+          <li id="youtube"><a href="{{ site.social.youtube }}" target="_blank">YouTube</a></li>
+          {% endif %}
+        </ul> 
+      </div>  
+    </div>
+    <div class="clear"></div>
+  </div>

@@ -1,0 +1,24 @@
+# Site settings
+title: TRUMP Internationl Realty
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://trump-towers.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Default Agent
+agentDefault: 
+ name: Susan James
+ img: img/agents/susan.jpg
+ title: Director of Residential Sales, TIHT - NY
+ email: 
+ phone: 718.473.9681
+
+# Contact and Social
+phone: 646.389.5768
+email: 
+social:
+ facebook: false
+ twitter: false
+ instagram: false
+ youtube: false

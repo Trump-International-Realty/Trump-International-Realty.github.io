@@ -1,0 +1,40 @@
+---
+layout: default
+title: International Luxury Real Estate Listings | Trump
+---
+
+    <div id="content">
+      <div id="full_content" class="new_listings_page">
+        <h1 style="font-size:1.5em;">THE TRUMP TOWERS, NEW YORK</h1>
+        <div class="property_border" style="font-size:1.25em;line-height:1;">
+          <p>
+            The Trump Organization is the world’s only global luxury real estate super-brand, and is responsible for many of the world’s most recognized properties. Renowned for its leadership in real estate sales, marketing, development, and management, the Trump name would like to expand its excellence, and reclaim its roots, by offering one of the most celebrated properties, The Trump Towers, as affordable housing to our communities most affected by the disastrous policies set in place by the Obama administration. With this new venture, Trump is recognizing the humanity and dignity in all people who work and live in our beautiful country carrying on the legacy of his father. This unprecedented and unparalleled opportunity will provide our valued citizens with home security enabling them to be active economic agents in the promise of perfection and prosperity in making America great again.
+          </p>
+          <p><strong>The following communities will benefit from this new proposal:</strong></p>
+            <ul style="margin-left:1em;line-height:1.5;">
+              <li><a href="listing_4.html">Workers who lost their jobs to jobs overseas</a></li>
+              <li><a href="listing_1.html">Muslim refugees who have successfully passed terrorist checks</a></li>
+              <li><a href="listing_5.html">Hardworking hispanics</a></li>
+              <li><a href="listing_2.html">Mexicans who will build the forthcoming wall</a></li>
+              <li><a href="listing_3.html">Sick and elderly people who have been negatively affected by the Affordable Care Act</a></li>
+              <li><a href="listing_6.html">Veterans</a></li>
+            </ul>
+            <h1>About Trump International Realty</h1>
+            <p>Trump International Realty is the premier luxury full-service brokerage headquartered in New York City.  Leveraging its global brand recognition, real estate vision and tremendous resources, Trump International Realty delivers a level of distinctive services unparalleled in the industry. By adhering to the Trump Organization’s standards of best-in-class talent, white glove service, superior quality, attention to detail and innovation, in 2016, the Trump name is excited to offer these luxuries to the industrious yet undervalued people of the United States. The Trump Towers located in the heart of New York City will be the “guinea pig” in this new expansion of resources, but hopes to expand affordable housing to Trump properties worldwide by 2020.</p>
+
+        </div>
+        <div id="property_results">
+          <div id="property_listings">
+          {% for page in site.pages %}
+            {% if page.listing == true %}
+              {% include property_listing.html rental=page %}
+            {% endif %}   <!-- resource-p -->
+          {% endfor %}  <!-- page -->
+          </div>
+        </div>
+<br class="clear">
+</div>
+<div class="clear"></div>
+</div>
+<div id="push"></div>
+</div>
