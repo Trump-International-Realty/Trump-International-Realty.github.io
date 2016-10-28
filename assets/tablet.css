@@ -1,0 +1,441 @@
+@media screen and (max-width: 1040px) {
+#home_banner {width: 100%;}
+}
+
+@media screen and (max-width: 940px) {
+
+	/*#property_map {width: 100%; float: none;}
+	#property_results.onSide {width: 100%; float: none;}*/
+
+	
+	#search_listings_new #sort {float: none;}
+
+	#property_calc #mortgage_result {margin-top: 30px; padding-top: 0; margin-bottom: 30px; position: static; width: 100%; text-align: left; color: #858585; font-size: 18px;}
+	#home_banner_message {top: 15%;}
+	#home_banner_message h2.upper {font-size: 30px;}
+	#home_banner_message h2.mid {font-size: 30px;}
+	#home_banner_message h2.lower {font-size: 25px;}
+	#property_calc .labeltxt{padding-left: 10px;}
+
+	#listings.detail #thumb_gallery {padding-bottom: 50px;}
+	#listings.detail #thumb_gallery .left {width: 100%; height: 480px; position: relative;}
+	#listings.detail #thumb_gallery .gallery_slide {width: 100%; overflow: hidden;}
+	#listings.detail #thumb_gallery .gallery_slide img{display: block;margin: 0 auto;}
+	#listings.detail #thumb_gallery #pager {width: 100%; position: relative;text-align: center;}
+	#listings.detail #thumb_gallery #pager a{float: none;display: inline-block;}
+	#listings.detail #thumb_gallery #view_slideshow {left: 50%; margin-left: -85px;}
+
+	#property_listings .property, #agent_featured_listings .property, .agent_featured_listings .property, #trump_featured .property {height:auto}
+	#property_listings .property_border, #agent_featured_listings .property_border, .agent_featured_listings .property_border, #trump_featured .property_border {height: auto;}
+		
+	/* Header */
+	#header_wrapper {width: 100%; height: auto; margin: 0; padding: 0;}
+	#header {width: 100%; height: auto; margin: 0; position: relative; padding: 0 0 10px 0;}
+	#brand {position: relative; top: auto; left: auto; padding: 10px; margin: 0 auto;}
+	#header_top {position: relative; top: auto; right: auto; float: none; height: auto;}
+	#header_top_text {position: absolute; margin-right: 0; top: 20px; left: 20px;}
+	#header_top_form {float: none; position: absolute; top: 20px; right: 20px;}	
+	#magnify {float: none; display: none;}
+	
+	/* Navigation */
+	#navigation {position: relative; bottom: auto; right: auto; float: none; width: auto; display: block; margin: 0 auto;}
+	#navigation ul {list-style: none; text-align: center;}
+	#navigation ul li {display: inline; float: none;}
+	#navigation ul li a {display: inline-block; padding: 10px 10px; float: none; font-size: 13px; color: #ebebeb; text-transform: uppercase;}
+	#navigation ul li a:hover {background: #4d4d4d;}
+	#navigation ul li ul {display: none; position: absolute; min-width: 120px; left: 0; top: 27px; z-index: 1000; background: rgb(58,58,58); background: rgba(58,58,58,.7);}
+
+	/* Content */
+	#home #content {width: 90%;}
+	#content {width: 90%;}
+	
+	/* Home Banner */
+	#home_banner li.slide div h2 {font-size: 11px;}
+	
+	/* Featured Properties */
+	#feat_prop_title img {max-width: 100%;}
+	#featured_properties {}
+	#featured_properties_image {width: 100%; height: auto; float: none; margin-bottom: 5px;}
+	#featured_properties_image img {width: 100%; height: auto;}
+	
+	#featured_properties_details {clear: both; width: calc(50% - 45px); float: left; padding: 20px; height: auto;}
+	#featured_properties_details h3 {font-size: 1em; margin-bottom: 0;}
+	
+	
+	#featured_properties_agent {height: auto; float: right; width: calc(50% - 5px); padding: 0;}
+	#featured_properties_agent_image {width: 94%; height: auto; max-height: 200px; float: none; margin: 0; padding: 3%;}
+	#featured_properties_agent_image img {width: 100%;}
+	
+	#featured_properties_agent_info {height: auto; width: 94%; float: none; padding: 3%;}
+	#featured_properties_agent_info h3 {font-size: 1em; margin-bottom: 0;}
+
+	
+	/* Search Featured Listings */
+	.show_advanced_space {position: relative; top: auto; right: auto; margin-bottom: 10px;}
+	
+	#search_featured_listings {float: left; background: #373737; padding: 2% 2% 0 2%; margin-bottom: 20px; width: 96%;}
+
+	#search_featured_listings .search_select_type {width: 190px; float: left; margin-bottom: 10px;}
+	#search_featured_listings .search_select_type select {width: 160px;}
+
+	#search_featured_listings .search_select_area {width: 160px; float: left; margin-right: 20px; margin-bottom: 10px;}
+	#search_featured_listings .search_select_area select {width: 160px;}
+
+	#search_featured_listings .search_price_range {font-size: 160px; clear: both; float: left; margin-right: 20px; padding-top: 2px; margin-bottom: 10px;}
+	#search_featured_listings .search_price_range p {text-transform: uppercase; font-size: 12px;}	
+
+	#search_featured_listings .search_price_low {font-size: 11px; padding-top: 6px; width: 60px; float: left; margin-right: 10px;}
+
+	#search_featured_listings .search_price_slider {width: 200px; float: left; padding-top: 3px; margin-bottom: 20px;}
+
+	#search_featured_listings .search_price_high {font-size: 11px; padding-top: 6px; width: 60px; float: left; margin-left: 15px;}
+
+	#search_featured_listings .search_button {width: 180px; float: none; clear: both; margin-bottom: 10px;}
+	#search_featured_listings .search_button input.search {text-transform: uppercase; color: #fff; cursor: pointer; width: 150px; font-size: 10px; padding: 10px; border: 1px solid #555555; background: #252525;}
+	
+	
+	/* New Listings Search */
+	.show_advanced_space {position: relative; top: auto; right: auto; margin-bottom: 10px;}
+	
+	#search_listings_new {float: left; width: 100%;}
+
+	#search_listings_new .search_select_type {width: 190px; float: left; margin-bottom: 10px;}
+	#search_listings_new .search_select_type select {width: 160px;}
+
+	#search_listings_new .search_select_area {width: 160px; float: left; margin-right: 20px; margin-bottom: 10px;}
+	#search_listings_new .search_select_area select {width: 160px;}
+
+	#search_listings_new .search_price_range {font-size: 160px; clear: both; float: left; margin-right: 20px; padding-top: 2px; margin-bottom: 10px;}
+	#search_listings_new .search_price_range p {text-transform: uppercase; font-size: 12px;}	
+
+	#search_listings_new .search_price_low {font-size: 11px; padding-top: 6px; width: 60px; float: left; margin-right: 10px;}
+
+	#search_listings_new .search_price_slider {width: 200px; float: left; padding-top: 3px; margin-bottom: 20px;}
+
+	#search_listings_new .search_price_high {font-size: 11px; padding-top: 6px; width: 60px; float: left; margin-left: 15px;}
+
+	#search_listings_new .search_button {width: 180px; float: none; clear: both; margin-bottom: 10px;}
+	#search_listings_new .search_button input.search {text-transform: uppercase; color: #fff; cursor: pointer; width: 150px; font-size: 10px; padding: 10px; border: 1px solid #555555; background: #252525;}
+	
+	.search_select_bathrooms {width: 100%; margin-right: 0;}
+	.search_select_bedrooms {width: 100%;}
+
+	#search_listings_new #choose-neighborhood-header li{margin-bottom: 15px;}
+	
+	/* Main Content */
+	#main_content {width: 100%; float: none;}
+	#main_content h1{margin-top: 30px;}
+	#main_content img {max-width: 100%;}
+	#main_content iframe {width:100%;height:auto;min-height:470px;}
+	
+	/* Secondary Content */
+	#secondary_content {width: 100%; float: none; margin-bottom: 0;}
+	#sc_nav {margin-bottom: 0; float: left; width: 33%; margin-right: 2%;}
+	#sc_archive {margin-bottom: 0; float: left; width: 33%; margin-right: 2%;}
+	#sc_archive ul li {font-style: italic;}
+	#sc_info {margin-bottom: 0; width: 29%; float: left;}
+	#sc_tags {margin-bottom: 0; width: 29%; float: right;}
+	
+	
+	/* Full Content */
+	#full_content {width: 100%;}
+	
+	/* Agents */
+	#agents .agent_border {display: block; height: 300px; overflow: hidden; position: relative; float: left;}
+	#agents .agent {width: 100%;}
+	#agents .agent_title {bottom: 0; padding: 3%;}
+
+	.agent {display: block; width: 48%; height: 300px; overflow: hidden; position: relative; float: left; margin-right: 4%;}
+	
+	/* Agent Detail */
+	#agent_social {position: absolute; top: 5px; right: 0;}
+	#agent_banner {width: 100%; height: auto; position: relative;}
+	#agent_banner img {width: 100%;}
+		
+	#agent_banner_message {width: 50%; text-align: right; padding: 1% 5%; background: rgba(0,0,0,.5); position: absolute; bottom: 0; right: 0;}
+	
+	#agent_details {width: 100%; margin-right: 0; border-top: 1px solid #706f6f; float: none; margin-top: 20px; padding-top: 5px; margin-bottom: 20px;}
+	
+	#agent_bio {margin-bottom: 20px; width: 96%; padding: 1% 2%; float: none; background: rgb(0,0,0); margin-right: 0;}
+
+	#agent_testimonial {width: -moz-calc(100% - 60px); width: -webkit-calc(100% - 60px); width: -o-calc(100% - 60px); width: calc(100% - 60px);}
+	
+	/* Properties */
+	#full_content .property, #listings.detail #property_sim .property {display: block; height: 180px; margin-bottom: 20px; overflow: hidden; position: relative; float: left;}
+
+	#property_listings .property_border, #agent_featured_listings .property_border, .agent_featured_listings .property_border,  #trump_featured .property_border {width: calc(48% - 20px) !important; margin-bottom: 20px; overflow: hidden; position: relative; float: left; margin-right: 1%;margin-left: 1%;padding-bottom: 20px;}
+	#property_listings .property, #agent_featured_listings .property, .agent_featured_listings .property,  #trump_featured .property {width: 100%; display: block; overflow: hidden; position: relative;}
+	#full_content .property img {width: 100%; height: auto; /*min-height: 100%*/; position: static; top: 0; left: 0;}
+	
+	#property_gallery .gallery_border{width: calc(33.33% - 40px); margin-right: 10px; margin-left: 10px}
+	#property_gallery .gallery_border.last {margin-right: 10px;}
+	.new_listings_page .property_information{width: 100%}
+
+	.new_listings_page .view-details{bottom:15px !important;}
+	.new_listings_page .property_exclusive{width: 40%}
+
+	#search_listings_new #filters-top #sales_rentals{width: calc(50% - 6px);margin-right: 6px}
+	#search_listings_new #filters-top #price-bed-bath{width: 50%; margin-right: 0}
+	#search_listings_new #filters-top #listing-type-amenities{width: 100%;min-height: auto}
+	#search_listings_new #filters-top #listing-type-amenities #amenities-table{margin-top: 20px}
+	
+	/* Property Detail */
+	#property_bar {width: 100%; background: #000; margin-bottom: 20px; border-left: 1px solid #646363; border-right: 1px solid #646363; border-top: 1px solid #646363; border-bottom: 1px solid #646363;}
+	#property_bar p {font-size: 26px; line-height: 16px; margin-bottom: 0;}
+	#property_bar p span {font-size: 12px;}
+	#property_bar div {float: left; border-left: none; height: 40px; padding: 10px 30px 5px; text-align: center;}
+	#property_other {border-top: 1px solid #706f6f; padding-top: 5px;}
+	#property_other h2 {margin-bottom: 10px;}
+
+	#property_info {width: 100%; float: none; margin-right: 0; margin-bottom: 20px;}
+	
+	#property_details_table {width: 30%; float: left; margin-right: 5%;}
+	#property_details_table table {width: 100%;}
+	#property_details_table table td {color: #ccc; border-bottom: 1px solid #646363; padding: 5px; font-size: 12px;}
+	
+	#property_description {width: 65%; float: right;}
+	
+	#property_agent {width: 98%; float: none; background: rgb(58,58,58); padding: 2%;}
+	
+	#property_agent h3 {border-top: none; padding-top: 5px; margin-bottom: 10px;}
+	#property_agent_thumb {width: 40%; float: left; margin-right: 5%;}
+	
+	#property_agent_details {width: 55%; float: right;}
+	
+	
+	/* Locations */
+	#locations .location_border {display: block; height: 280px; margin-bottom: 20px; overflow: hidden; position: relative; float: left;}
+	#locations .location_border .location {width: 100%;}
+	#locations .location_border .location .location_title {padding: 10px; bottom: 0; background: #F8F7F7; opacity: .98;}
+
+	.location {display: block; width: 48%; height: 280px; margin-bottom: 20px; overflow: hidden; position: relative; float: left; margin-right: 4%;}
+	.location img {height: 100%; width: auto; position: absolute; top: 0; left: 0;}
+	
+	/* Location */
+	#location_banner {width: 100%; margin-bottom: 20px; height: auto; overflow: hidden;}
+	#location_info {width: 100%; float: none; margin-right: 0; margin-bottom: 20px;}
+	
+	#location_offices {width: 100%; float: none; margin-bottom: 20px;}
+	.location_office {display: inline-block;}
+
+	.location_agent{width: calc(33% - 20px)}
+	
+	/* Media */
+	#media_title {padding-bottom: 0;}
+	.media_list {width: 98%; margin-bottom: 20px; position: relative; padding: 2%;}
+	.media_image {position: relative; top: auto; left: auto; width: 40%; float: left;}
+	.media_image img {width: 100%; height: auto;}
+	
+	.media_text {width: 58%; padding-left: 0; float: right;}
+	.media_date {width: 20%; float: left; margin-right: 5%; text-align: center;}
+	.media_summary {width: 75%; float: right;}
+	
+	/* Search Results */
+	.result {width: 98%; padding: 2%; margin-bottom: 20px; background: #3a3a3a;}
+	.result_thumb {width: 40%; float: left; margin-right: 2%;}
+	.result_thumb img {max-width: 100%;}
+	.result_text {width: 58%; float: right;}
+	
+	/* Trump Buildings 
+	#property_gallery .gallery_border.last {margin-right: 2% !important;}
+	#property_gallery .gallery_border {display: block; width: 23.5%; height: 280px; margin-bottom: 20px; overflow: hidden; position: relative; float: left; margin-right: 2%;}
+	#property_gallery .gallery_border .trump {width: 100%;}
+	.trump {display: block; width: 23.5%; height: 280px; margin-bottom: 20px; overflow: hidden; position: relative; float: left; margin-right: 2%;}
+	.trump img {height: 100%; width: auto; position: absolute; top: 0; left: -20px;}*/
+	
+	/* Trump Building */
+	#trump_banner {width: 100%; height: auto; position: relative;}
+	#trump_banner img {width: 100%; top: 0;float: left;}
+	#trump_banner_message {width: 90%; text-align: right; padding: 1% 5%; background: rgba(0,0,0,.5); position: absolute; bottom: 0; right: auto; left: 0;}
+	#trump_banner_message h3 {font-weight: 400; font-size: 20px; line-height: 30px; text-transform: none;}	
+	#trump_info {width: 100%; margin-right: 0; border-top: 1px solid #706f6f; float: none; margin-top: 20px; padding-top: 5px; margin-bottom: 20px;}
+	#trump_description {width: 96%; padding: 1% 2%; float: none; background: rgb(0,0,0); margin-right: 0;}	
+	
+	#trump_banner_vertical {width: 48%; float: left; margin-right: 2%;}
+	#trump_banner_vertical img {width: 100%;}
+	#trump_building_info_vertical {background: #fff; width: 46%; float: right; padding: 2%;}
+	
+	/* Contact Forms */
+	#contact_form input {width: 90%; border: 2px solid transparent; text-transform: none; padding: 1% 2%; background: #d7d7d7; color: #000; font-size: 10px;}
+	#contact_form div.phone_area {margin-right: 20px;}
+	#contact_form div.phone_number {width: 200px;}
+	#contact_form input:focus {border: 2px solid #000;}
+	#contact_form textarea {width: 90%; border: 2px solid transparent; text-transform: none; height: 100px; padding: 1% 2%; background: #d7d7d7; color: #000; font-size: 10px;}
+	#contact_form textarea:focus {border: 2px solid #000;}
+	#contact_form input::-webkit-input-placeholder {color: #000;}
+	#contact_form input:-moz-placeholder {color: #000;}
+	#contact_form input.submit {width: 100px; cursor: pointer; background: #707070; color: #fff;}
+
+
+	#contact_left {width: 45%; float: left; margin-right: 5%;}
+	#contact_right {padding-top: 0px;}
+	#contact_right {width: 50%; float: right;}
+	#contact_right img {width: 100%;}
+	
+	
+	
+	/* Footer */
+	#footer_love_wrapper {display: none;}
+	#footer_love {display: none;}
+	#footer_buttons {left: 0;}
+	#footer_contact {left: 0;}
+	#footer_wrapper {height: auto; margin-top: 60px; position: relative;display: inline-block;width: 100%;}
+	#footer {width: 100%; margin: 0; height: auto;display: inline-block; position: relative; font-size: 13px;}
+	#footer_connect {position: relative; top: auto; left: auto; float: none; padding: 10px 20px 0 20px;}	
+	#footer_buttons {position: relative; top: auto; left: auto; float: none;}
+	#footer_buttons ul li{margin: 0 5px 10px;}
+	#footer_contact {position: relative; top: auto; left: auto; float: right; padding: 20px 20px 20px 0;}
+
+	#home #callout {padding: 30px 50px;}
+
+	#website_designer {position: static;margin-bottom: 20px;}
+	
+	#request_form_overlay input[type="submit"] {margin-bottom: 10px; display: block;}
+
+	#header_wrapper #social {top: 60px; right: 20px;}
+	.half-callout {width:100% !important;padding: 30px 10px !important}
+	.half-callout a {float:none !important;display: block;max-width: 165px;margin: 0 auto;}
+	.half-callout, .brochure-callout {height: auto !important;position: relative !important;margin-bottom: 45px;}
+	.brochure-image {position: relative !important;text-align: center !important;margin: 0 auto !important;}
+	.callout-content {text-align:center !important;margin-left: 0 !important;margin-top: 0 !important;}
+}
+
+@media screen and (max-width: 750px) {
+	#main_content iframe {width:100%;height:auto;min-height:380px;}
+	#search_popup #search_container {width: 100%;}
+	#search_popup #search_container .search_form {width: 100%;}
+	#search_popup #search_container .search_form input[type=text] {font-size: 18px; width: 85%; padding-left: 2%;}
+
+	#search_listings_new #filters {float: none; margin-top: 20px;margin-bottom: 2%; border-bottom: 1px solid #bfbfbf; padding-bottom: 2%;}
+
+	#home_banner_message {top: 10%;}
+	#home_banner_message h2.upper {font-size: 25px;}
+	#home_banner_message h2.mid {font-size: 25px;}
+	#home_banner_message h2.lower {font-size: 20px;}
+
+	#header_wrapper #social {width: 100%;margin-bottom: 30px;position: static;opacity: .5}
+	#header_wrapper #social ul{width: 100%;float: left;text-align: center;}
+	#header_wrapper #social ul li{display: inline-block;float: none;margin-right: 5px;margin-left: 5px}
+	#header_top_text {display: none;}
+
+	#property_listings .property, #agent_featured_listings .property, .agent_featured_listings .property, #trump_featured .property {height: auto;}
+	#property_listings .property_border, #agent_featured_listings .property_border, .agent_featured_listings .property_border, #trump_featured .property_border {height: 270px;}
+
+	#property_results.onSide #property_listings .property{width: 100%;height: 120px !important;margin-bottom: 5px;}
+	#property_results.onSide #property_listings .property_title{width: 100% !important}
+	.new_listings_page #property_results.onSide .property_price{width: 92%;}
+	.new_listings_page #property_results.onSide .hide.beds-bath{width: 100%;}
+    .new_listings_page #property_results.onSide .hide.beds-bath .property_bathrooms, 
+    .new_listings_page #property_results.onSide .hide.beds-bath .property_bedrooms{width: 50%}
+
+	#locations .location_border {display: block; height: 280px; margin-bottom: 20px; overflow: hidden; position: relative; float: left; }
+	#locations .location_border .location {width: 100%;}
+	#locations .location_border .location .location_title {padding: 10px; bottom: 0; background: #F8F7F7; opacity: .98;}
+
+	#agents .agent_border {display: block; height: 300px; overflow: hidden; position: relative; float: left;}
+	#agents .agent {width: 100%;}
+	#agents .agent_title {bottom: 0; padding: 3%;}
+
+	#property_listings .property_border, #agent_featured_listings .property_border, .agent_featured_listings .property_border, #trump_featured .property_border {height: auto;margin-bottom: 20px; overflow: hidden; position: relative; float: left;}
+	#property_listings .property, #agent_featured_listings .property, .agent_featured_listings .property, #trump_featured .property {width: 100% !important; display: block; overflow: hidden; position: relative;}
+	#property_gallery .gallery_border{width: calc(50% - 40px)}
+
+	#navigation {position: relative; bottom: auto; right: auto; float: none; width: auto; display: block; margin: 0 auto;}
+	#header_top_text {position: relative; top: auto; left: auto; float: left; margin-right: 10px; padding: 20px 0 0 20px;}
+	#header_top_form {float: right; padding: 20px 20px 0 0; position: relative; top: auto; right: auto;}
+	#brand {position: relative; top: auto; left: auto; padding: 20px; margin: 0 auto 0;}
+	#navigation ul li a {display: inline-block; padding: 10px 5px; float: none; font-size: 10px; color: #ebebeb; text-transform: uppercase;}
+	#navigation ul li ul {display: none; position: absolute; min-width: 120px; left: 0; top: 26px; z-index: 1000; background: rgb(58,58,58); background: rgba(58,58,58,.7);}
+	#search_nyc_home {position: relative; top: auto; left: auto;}
+	#trump_banner_vertical {width: 100%; float: none; margin-right: 0; margin-bottom: 20px;}
+	#trump_banner_vertical img {width: 100%;}
+	#trump_building_info_vertical {background: #fff; width: 96%; float: none; padding: 2%;}
+
+	#search_listings_new #filters {width:100%;float: left; margin-bottom: 0; border-bottom: 1px solid #bfbfbf; padding-bottom: 2%;}
+	#search_listings_new #sort {float: none;}
+	#search_listings_new .drops, #search_listings_new .controls{float: left;margin-right: 3px}
+
+	#search_listings_new {margin-bottom: 0;border: 0}
+	#search_listings_new .controls li.dropdown {position: static;}
+	#search_listings_new .features-filters {min-width: 0 !important; padding: 0 !important; width: 100%;}
+	#search_listings_new .features-filters td {display: block; border-bottom: 0 !important;}
+
+	#listings.detail #property_left {width: 100%; float: none; margin-bottom: 20px;}
+	#listings.detail #property_right {width: 100%; float: none; margin-bottom: 20px;}
+	#listings.detail #title h1 {float: none;}
+	#listings.detail #title h2 {float: none; font-size: 18px;}
+	#listings.detail #property_bar .property_bar_box.sm{width: 30%}
+	#listings.detail #property_bar #property_print{display: none}
+	#listings.detail #thumb_gallery .gallery_slide{height: auto;margin-bottom: 20px;}
+	#listings.detail #thumb_gallery .gallery_slide img{width: 100% !important;height: 100% !important}
+
+	#request_form, #request_form_login {padding: 20px 0; width: 70%;}
+	#request_form_overlay .request_form_reg {padding: 3% 3% 0 3%; width: 94%; float: none; border-right: none;}
+	#request_form_overlay .request_form_social {border-bottom: 1px solid #BFBFBF; border-top: 1px solid #BFBFBF; padding: 3%; width: 94%; float: none;}
+
+	#footer_form, #footer_form_login {padding: 20px 0; width: 70%;}
+	#footer_form_overlay .footer_form_reg {padding: 3% 3% 0 3%; width: 94%; float: none; border-right: none;}
+	#footer_form_overlay .footer_form_social {border-bottom: 1px solid #BFBFBF; border-top: 1px solid #BFBFBF; padding: 3%; width: 94%; float: none;}
+
+	#push{height: 100px;}
+}
+
+@media screen and (max-width: 600px) {
+	#main_content iframe {width:100%;height:auto;min-height:300px;}
+	#search_popup #search_container .search_form input[type=text] {font-size: 15px;}
+	#request_form_overlay .back_link {left: 3%; display: block;}
+
+	#home_banner_message {top: 10%;}
+	#home_banner_message h2.upper {font-size: 20px;}
+	#home_banner_message h2.mid {font-size: 20px;}
+	#home_banner_message h2.lower {font-size: 15px;}
+
+	#property_listings .property, #agent_featured_listings .property, .agent_featured_listings .property, #trump_featured .property {height: auto !important;}
+	#full_content .property {display: block; width: 100% !important; height: 320px; margin-bottom: 20px; overflow: hidden; position: relative; float: none;}
+	#full_content .property img {height: auto;max-height: 100% !important; width: 100%; position: static;}
+
+	#property_calc td{width: 40%;float:left;}
+	#property_calc input[type=text]{width: calc(100% - 25px);margin-bottom: 10px;}
+	#property_calc input[type=submit]{width: 100%}
+	#property_calc #mortgage_result{margin-top: 0}
+	#property_calc .labeltxt{text-align: right;margin-top: 10px}
+
+	#search_listings_new .controls{width: 100%;margin-right: 0}
+	#search_listings_new #filters-top #filter_bedrooms,
+	#search_listings_new #filters-top #filter_baths{float: left;width: calc(50% - 15px); padding: 0 10px 0 0}
+	#search_listings_new #filters-top #filter_baths{width: calc(50% - 15px)}
+	#search_listings_new #filters-top #sales_rentals{width: 100%;height: auto;margin-bottom: 6px}
+	#search_listings_new #filters-top .ownership-type-list{width: 100%}
+	#search_listings_new #filters-top .ownership-type-list li{float: left;width: 50%}
+	#search_listings_new #filters-top #price-bed-bath{width: 100%}
+	#search_listings_new #filters-top #price-bed-bath #bedrooms-bathrooms{width: calc(100% - 30px)}
+	#search_listings_new #filters-top #price-bed-bath #bedrooms-bathrooms .filter-radios{margin-top: 0}
+	#search_listings_new #filters-top #price-bed-bath #bedrooms-bathrooms .filter-radios li{display: flex !important; float:left;height: auto;width:auto;margin-bottom: 2px}
+	
+	
+	#trump_banner_message {padding: 3% 5%; background: rgba(0,0,0,1); position: static; display: inline-block;}
+
+	#locations .location_border {width: calc(98% - 20px)}
+	#agents .agent_border {display: block; width: calc(95% - 20px);max-width: 400px; height: 300px; overflow: hidden; position: relative; float: none; margin-left: auto !important;margin-right: auto !important;}
+	.location_agent{width: calc(50% - 20px)}
+
+	#home #callout {padding: 30px;}
+	#request_form, #request_form_login {padding: 20px 0 40px 0; width: 90%;}
+	#footer_form, #footer_form_login {padding: 20px 0 40px 0; width: 90%;}
+	#property_listings .property_border, #agent_featured_listings .property_border, .agent_featured_listings .property_border, #trump_featured .property_border {width: calc(100% - 20px) !important; height: auto; margin-bottom: 20px; overflow: hidden; position: relative; float: none;margin-left: auto;margin-right: auto;display: block}
+	#property_listings .property, #agent_featured_listings .property, .agent_featured_listings .property, #trump_featured .property {width: 100%; display: block; overflow: hidden; position: relative; margin-bottom: 0;}
+	
+	.media_image {position: relative; top: auto; left: auto; width: 100%; float: none; margin-bottom: 10px;}
+	.media_image img {width: 100%; height: auto;}
+	.media_text {width: 100%; padding-left: 0; float: none;}
+	.media_date {width: 25%; float: left; margin-right: 5%; text-align: center;}
+	.media_summary {width: 70%; float: right;}
+
+	/* Contact Form */
+	#contact_left {width: 100%; float: none; margin-right: 0%; margin-bottom: 20px;}
+	#contact_right {padding-top: 0px;}
+	#contact_right {width: 100%; float: none;}
+	#contact_right img {width: 100%;}
+
+	#disclaimer{padding: 0 30px}
+}
